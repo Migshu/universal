@@ -1,0 +1,45 @@
+<svg width="0" height="0" class="hidden">
+  <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 16" id="images">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M3 3.5v-2a1 1 0 011-1h14a1 1 0 011 1v10a1 1 0 01-1 1h-2v2a1 1 0 01-1 1H1a1 1 0 01-1-1v-10a1 1 0 011-1h2zm12 9H4a1 1 0 01-1-1v-7H1v10h14v-2zM4 1.5v10h14v-10H4zm14 10H4v-1l3-3 3 2 4-4 4 5v1zm-8.5-5a1.5 1.5 0 110-3 1.5 1.5 0 010 3z" ></path>
+  </symbol>
+  <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 14" id="comment">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.135 11v3L8.36 11H2.25a1.5 1.5 0 01-1.5-1.5V2A1.5 1.5 0 012.25.5h10.5a1.5 1.5 0 011.5 1.5v7.5a1.5 1.5 0 01-1.5 1.5h-1.615z" ></path>
+  </symbol>
+  <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 13" id="heart">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.84 1.96C11.17 1.212 10.28.8 9.334.8c-.947 0-1.74.412-2.41 1.16l-.425.68-.425-.68C5.406 1.212 4.612.8 3.665.8c-.945 0-1.835.412-2.504 1.16-1.381 1.546-1.381 4.06 0 5.604l4.949 4.757a.523.523 0 00.393.179c.14 0 .28-.06.387-.18l4.95-4.756c1.38-1.544 1.38-4.058 0-5.604z" ></path>
+  </symbol>
+  <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 18" id="bookmark">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 0h10a2 2 0 012 2v16l-6.905-5L0 18V2a2 2 0 012-2z" ></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 72" id="file">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M40 0l16 16v52a4 4 0 01-4 4H4a4 4 0 01-4-4V4a4 4 0 014-4h36zm-4 20V4H4v64h48V20H36z" ></path>
+  </symbol>
+   <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" id="download">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M16 12.426c0-.237.263-.426.5-.426s.5.189.5.426v4.134a.44.44 0 01-.432.44H.426A.435.435 0 010 16.56v-4.134C0 12.19.263 12 .5 12s.5.189.5.426V16h15v-3.574zM9 0v10h3l-3.5 4L5 10h3V0h1z" ></path>
+  </symbol>
+  <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 7" id="arrow">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 3v1h11v3l4-3.5L11 0v3H0z" ></path>
+  </symbol>
+  <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" id="clock">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 14.25a6.75 6.75 0 110-13.5 6.75 6.75 0 010 13.5zm.75-6.75v-3a.75.75 0 00-1.5 0v3.75c0 .414.336.75.75.75h2.25a.75.75 0 000-1.5h-1.5z" ></path>
+  </symbol>
+   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 17" id="home">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 17h5v-6h4v6h5v-7h2L9 0 0 10h2v7z" ></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 7" id="left-arrow">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 3v1H4v3L0 3.5 4 0v3h11z" ></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 11" id="eye">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 5.262s-3 5.113-7.5 5.113S0 5.262 0 5.262 3 .625 7.5.625 15 5.262 15 5.262zM7.5 2.875a2.629 2.629 0 012.625 2.626A2.626 2.626 0 117.5 2.875zm-.001 3.938c.724 0 1.31-.591 1.31-1.316 0-.726-.587-1.317-1.31-1.317-.724 0-1.311.59-1.311 1.316 0 .726.587 1.317 1.31 1.317z" ></path>
+  </symbol>
+  <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" id="pencil">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 14.2V18h3.8l11-11.1L11 3.1 0 14.2zM17.7 4c.4-.4.4-1 0-1.4L15.4.3c-.4-.4-1-.4-1.4 0l-1.8 1.8L16 5.9 17.7 4z"></path>
+  </symbol>
+  <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 13" id="thumb">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 12.75A.75.75 0 01.75 12V5.25a.75.75 0 01.75-.75h.75a.75.75 0 01.75.75V12a.75.75 0 01-.75.75H1.5zm11.523-8.54c.675 0 1.227.59 1.227 1.313-.01 1.005-.034 1.559-.072 1.662-.039.104-.67 1.696-1.892 4.777-.184.46-1.696.788-2.187.788H5.79c-.675 0-1.665-.591-1.665-1.314V4.5L8.195.288l.003-.002A.939.939 0 019.525.268c.123.197.245.46.245.722v.197L9.157 4.21h3.866z"></path>
+  </symbol>
+   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 13" id="thumb2">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5.25a.75.75 0 01.75.75v6.75a.75.75 0 01-.75.75h-.75a.75.75 0 01-.75-.75V1a.75.75 0 01.75-.75h.75zM1.977 8.79C1.302 8.79.75 8.2.75 7.478c.01-1.005.034-1.559.072-1.662.039-.104.67-1.696 1.892-4.777C2.898.578 4.41.25 4.9.25h4.31c.675 0 1.665.591 1.665 1.314V8.5l-4.07 4.212-.003.002a.939.939 0 01-1.327.018c-.123-.197-.245-.46-.245-.722v-.197l.613-3.022H1.977z" ></path>
+  </symbol>
+  
+</svg>

@@ -1,0 +1,341 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: universal\n"
+"POT-Creation-Date: 2020-12-02 14:04+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: My Super Team\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: category.php:72
+msgid "Previous"
+msgstr "Назад"
+
+#: category.php:73 template-parts/content.php:44
+msgid "Next"
+msgstr "Вперед"
+
+#: comments.php:53
+#, php-format
+msgid "<cite class=\"comments-author-name\">%s</cite>"
+msgstr ""
+
+#: comments.php:61
+#, php-format
+msgid "%1$s  %2$s"
+msgstr ""
+
+#: comments.php:67
+msgid "(Edit)"
+msgstr ""
+
+#: comments.php:73
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает  модерации."
+
+#: comments.php:151
+msgid "Comments are closed."
+msgstr "Комментарий закрыт."
+
+#: comments.php:170
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+"Вы должны быть <a href=\"%s\">зарегестрированны</a> чтобы оставить "
+"комментарии."
+
+#: comments.php:175
+msgctxt "noun"
+msgid "What do you think about this? "
+msgstr "Что вы думаете  об этом?"
+
+#: front-page.php:373 front-page.php:704
+msgid "There are no posts matching your criteria."
+msgstr "Нет постов по вашим критериям."
+
+#: functions.php:24
+msgid "Header menu"
+msgstr "Меню в шапке"
+
+#: functions.php:25
+#, fuzzy
+#| msgid "Footer navigation menu"
+msgid "Footer menu"
+msgstr "Навигационное меню в футоре"
+
+#: functions.php:33
+msgctxt "taxonomy general name"
+msgid "Lessons"
+msgstr "Уроки"
+
+#: functions.php:34
+msgctxt "taxonomy singular"
+msgid "Lesson"
+msgstr "Урок"
+
+#: functions.php:35
+msgid "Add lesson"
+msgstr "Добавить урок"
+
+#: functions.php:36
+#, fuzzy
+#| msgid "Add New Theme"
+msgid "Add New lesson"
+msgstr "Добавить новую тему"
+
+#: functions.php:37
+msgid "Edit lesson"
+msgstr "Редактировать урок"
+
+#: functions.php:38
+msgid "New lesson"
+msgstr "Новый урок"
+
+#: functions.php:39
+msgid "Watch lessons"
+msgstr "Смотреть урок"
+
+#: functions.php:40
+msgid "Search lessons"
+msgstr "Искать урок"
+
+#: functions.php:41
+msgid "Lesson not found"
+msgstr "Урок не найден"
+
+#: functions.php:42
+msgid "Lesson not found in trach"
+msgstr "Урок  не найден в корзине"
+
+#: functions.php:44
+msgid "Lessons"
+msgstr "Уроки"
+
+#: functions.php:46
+msgid "Lessons section"
+msgstr "Рздел  с уроками"
+
+#: functions.php:81
+msgctxt "taxonomy general name"
+msgid "Themes"
+msgstr "Темы"
+
+#: functions.php:82
+msgctxt "taxonomy singular name"
+msgid "Theme"
+msgstr "Тема"
+
+#: functions.php:83
+msgid "Search Themes"
+msgstr "Искать тему"
+
+#: functions.php:84
+msgid "All Themes"
+msgstr "Все темы"
+
+#: functions.php:85
+msgid "Parent Theme"
+msgstr "Родительская тема"
+
+#: functions.php:86
+msgid "Parent Theme:"
+msgstr "Родительская тема:"
+
+#: functions.php:87
+msgid "Edit Theme"
+msgstr "Править тему"
+
+#: functions.php:88
+msgid "Update Theme"
+msgstr "Обновить тему"
+
+#: functions.php:89
+msgid "Add New Theme"
+msgstr "Добавить новую тему"
+
+#: functions.php:90
+msgid "New Theme Name"
+msgstr "Название новой темы"
+
+#: functions.php:91
+msgid "Theme"
+msgstr "Тема"
+
+#: functions.php:102
+msgctxt "taxonomy general name"
+msgid "Teachers"
+msgstr "Учителя"
+
+#: functions.php:103
+msgctxt "taxonomy singular name"
+msgid "Teacher"
+msgstr "Учитель"
+
+#: functions.php:104
+msgid "Search Teachers"
+msgstr "Найти учителя"
+
+#: functions.php:105
+msgid "Popular Teachers"
+msgstr "Популярный учитель"
+
+#: functions.php:106
+msgid "All Teachers"
+msgstr "Все учителя"
+
+#: functions.php:109
+msgid "Edit Teacher"
+msgstr "Редактировать учителя"
+
+#: functions.php:110
+msgid "Update Teacher"
+msgstr "Обновить Учителей"
+
+#: functions.php:111
+msgid "Add New Teacher"
+msgstr "Добавить нового учителя"
+
+#: functions.php:112
+msgid "New Teacher Name"
+msgstr "Имя нового учителя"
+
+#: functions.php:113
+msgid "Separate Teachers with commas"
+msgstr "Выбрать  учителей через запятую"
+
+#: functions.php:114
+msgid "Add or remove Teachers"
+msgstr "Добавить или удалить учителя"
+
+#: functions.php:115
+msgid "Choose from the most used teachers"
+msgstr "Выбрать самого популярного учителя"
+
+#: functions.php:116
+msgid "Teachers"
+msgstr "Учителя"
+
+#: functions.php:234
+msgid "Sidebar on main page"
+msgstr "Сайдбар на главной"
+
+#: functions.php:236
+#, fuzzy
+#| msgid "Add New Theme"
+msgid "Add widget here"
+msgstr "Добавить новую тему"
+
+#: functions.php:245
+#, fuzzy
+#| msgid "Sidebar on main page"
+msgid "Bottom sidebar on main page"
+msgstr "Сайдбар на главной"
+
+#: functions.php:247
+#, fuzzy
+#| msgid "Sidebar on main page"
+msgid "Widget on bottom of the main page"
+msgstr "Сайдбар на главной"
+
+#: functions.php:256
+msgid "Footer navigation menu"
+msgstr "Навигационное меню в футоре"
+
+#: functions.php:258
+msgid "Add menu item in footer menu"
+msgstr "Добавить элемент в меню футера"
+
+#: functions.php:267
+msgid "Text in footer"
+msgstr "Текст в футоре"
+
+#: functions.php:269
+msgid "Add text in footer"
+msgstr "Добавить текст в футор"
+
+#: functions.php:292 functions.php:336
+msgid "Useful files"
+msgstr "Полезные файлы"
+
+#: functions.php:293
+msgid "Download files"
+msgstr "Файлы для скачивания"
+
+#: functions.php:337 functions.php:345
+msgid "Desctiptions"
+msgstr "Описание"
+
+#: functions.php:338 functions.php:349
+msgid "Link"
+msgstr "Ссылка"
+
+#: functions.php:341 functions.php:628 functions.php:633
+msgid "Title"
+msgstr "Заголовок"
+
+#: functions.php:417 functions.php:418
+msgid "Social Widget"
+msgstr "Виджет социальных сетей"
+
+#: functions.php:464 functions.php:474
+msgid "Widget Title"
+msgstr "Заголовок виджета"
+
+#: functions.php:465 functions.php:466 functions.php:467 functions.php:478
+#: functions.php:486 functions.php:494
+msgid "Social name"
+msgstr "Имя сети"
+
+#: functions.php:468 functions.php:469 functions.php:470 functions.php:482
+#: functions.php:490 functions.php:498
+msgid "Social link"
+msgstr "Ссылка"
+
+#: functions.php:551 functions.php:552
+msgid "Last published posts"
+msgstr "Последние опубликованные статьи"
+
+#: functions.php:629 functions.php:637
+msgid "Counter for the published posts:"
+msgstr "Количество последних статей"
+
+#: searchform.php:2
+msgid "Search"
+msgstr "Поиск"
+
+#: template-parts/content-lessons.php:76 template-parts/content.php:122
+#, php-format
+msgid "Continue reading<span class=\"post-reader-text\"> \"%s\"</span>"
+msgstr "Продолжить чтение<span class=\"post-reader-text\"> \"%s\"</span>"
+
+#: template-parts/content-lessons.php:89 template-parts/content.php:135
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: template-parts/content-lessons.php:100 template-parts/content.php:146
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: template-parts/content.php:42
+msgid "Prev"
+msgstr "Назад"
+
+#~ msgid "Нет постов по вашим критериям."
+#~ msgstr "Нет постов по вашим критериям."
+
+#~ msgctxt "noun"
+#~ msgid "Что вы думаете на этот счет? "
+#~ msgstr "Что вы думаете на этот счет? "

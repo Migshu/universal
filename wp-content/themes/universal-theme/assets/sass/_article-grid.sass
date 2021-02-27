@@ -1,0 +1,293 @@
+.main-grid
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+.article
+  &-permalink
+    text-decoration: none
+    color: #262D33
+  &-grid
+    width: 74%
+    padding: 0
+    margin: 30px 0px
+    list-style: none
+    display: grid
+    grid-template-columns: repeat(auto-fit,  minmax(30% , 1fr))
+    grid-template-rows: repeat(3, minmax(160px, max-content) )
+    grid-auto-rows: minmax(160px, max-content)
+    grid-gap: 30px
+    /* grid развертка не сработала не знаю  ковырял долго и нудно возможно блокам 
+     лучше было дать привязку к grid-template-arias и в адапритве включать и выключать нужные статьи
+     чтобы не отвекатся сделал на быструю руку, не ругайте сильно пожалуйста */
+    &-item
+      border-radius: 10px
+      background: #fff
+      position: relative
+      overflow: hidden
+
+      &-1
+        grid-area: 1 / 1 / 2 / 3
+        // min-width: 552px
+        // min-height: 373px
+        padding: 35px 35px 15px 35px
+
+      .article
+        &-grid
+          &-block
+            display: flex
+            justify-content: space-between
+
+            &-image
+              position: absolute
+              top: 0px
+              right: 0
+              width: 280px
+              height: 324px
+
+          &-category
+            text-transform: uppercase
+            font-weight: 900
+            font-size: 12px
+            line-height: 15px
+            letter-spacing: 0.5px
+            color: #6E99AE
+            padding: 20px 0px
+
+          &-title
+            max-width: 238px
+            font-family: Roboto Slab
+            font-weight: 900
+            font-size: 25px
+            line-height: 30px
+            color: #262D33
+            padding: 20px 0px
+
+          &-excerpt
+            max-width: 238px
+            font-weight: 400
+            font-size: 14px
+            line-height: 20px
+            color: #4B5157
+            margin-bottom: 50px
+
+          &-info
+            position: absolute
+            right: 0
+            left: 0
+            bottom: 0
+            border-top: 1px solid  #939699
+            display: flex
+            align-items: center
+            // margin-left: 35px
+            background: #fff
+
+          &-data
+            color: #939699
+          &-author
+            color: #4B5157
+            font-size: 14px
+            line-height: 20px
+            padding: 15px 10px
+            strong
+              font-family: 'Lato-Black', sans-serif
+          &-avatar
+            width: 30px
+            height: 30px
+            border-radius: 50%
+            margin-left: 35px
+          &-comments
+            padding: 0px 5px
+
+          &-counter
+            color: #939699
+            line-height: 15px
+            font-size: 12px
+            align-items: center
+
+      &-2
+        grid-area: 1 / 3 / 2 / 4
+        // background-image: url('../images/items_fon.jpg')
+        // min-width: 261px
+        // min-height: 373px
+
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center
+        padding: 30px 25px
+        position: relative
+        &::after
+          position: absolute
+          content: " "
+          width: 100%
+          height: 100%
+          top: 0px
+          left: 0px
+          background: linear-gradient(0deg, rgba(64, 48, 61, 0.35), rgba(64, 48, 61, 0.35))
+          z-index: 0
+      .article
+        &-grid
+          &-item
+            &-permalink2
+              position: absolute
+              width: 100%
+              height: 100%
+              top: 0px
+              left: 0px
+              right: 0px
+              bottom: 0px
+              display: flex
+              flex-direction: column
+              justify-content: space-between
+              align-items: flex-start
+              padding: 25px
+              z-index: 10
+            &-thumb2
+              position: absolute
+              width: 100%
+              height: 100%
+              object-fit: cover
+              top: 0px
+              left: 0px
+              bottom: 0px
+              z-index: 0px
+            &-tags2
+              font-size: 12px
+              line-height: 15px
+              color: #fff
+              padding: 5px 12px
+              background-color: #3DC47E
+              border-radius: 3px
+              text-transform: capitalize
+              margin-bottom: 100px
+              z-index: 10
+            &-category2
+              font-weight: 900
+              font-size: 12px
+              line-height: 15px
+              text-transform: uppercase
+              color: #E7D9FF
+              z-index: 10
+            &-title2
+              font-family: Roboto Slab
+              font-style: normal
+              font-weight: 900
+              font-size: 16px
+              line-height: 25px
+              color: #ffffff
+              max-width: 200px
+              text-transform: uppercase
+              z-index: 10
+            &-comments2
+              display: flex
+              justify-content: space-between
+              margin-left: 35px
+              color: #fff
+              opacity: 0.4
+            &-info2
+              display: flex
+              align-items: center
+              font-size: 12px
+            &-author2
+              color: #fff
+              font-size: 14px
+              line-height: 20px
+              opacity: 0.85
+              margin-left: 35px
+            &-avatar2
+              width: 30px
+              height: 30px
+              border-radius: 50%
+              position: absolute
+              left: 25px
+              bottom: 27px
+            &-data2
+              line-height: 15px
+              padding-right: 5px
+            &-counter2
+              line-height: 15px
+              font-size: 12px
+              align-items: center
+              padding-right: 5px
+            &-icon2
+              padding-right: 5px
+
+      &-3
+        grid-area: 2 / 1 / 4 / 2
+        // min-width: 261px
+        // min-height: 373px
+        position: relative
+      .article
+        &-grid
+          &-item
+            &-permalink3
+              position: absolute
+              width: 100%
+              height: 100%
+              top: 0px
+              left: 0px
+              right: 0px
+              bottom: 0px
+            &-thumb3
+              width: auto
+              height: 75%
+              object-fit: cover
+
+            &-title3
+              font-family: Roboto Slab
+              font-size: 16px
+              line-height: 25px
+              padding: 20px 15px 0px 15px
+              color: #262D33
+      .article
+        &-grid
+          &-default
+            &-excerpt
+              font-size: 14px
+              line-height: 20px
+              padding: 0px 15px 20px 15px
+              color: #262D33
+            &-data
+              padding: 0px 10px
+              font-size: 12px
+              line-height: 15px
+              color: #939699
+              position: absolute
+              left: 5px
+              bottom: 20px
+
+@media screen and ( max-width: 1200px )
+  .main-grid
+    flex-wrap: wrap
+  .article
+    &-grid
+      // grid-template-columns: repeat(auto-fit,  minmax(35% , 1fr))
+      width: 100%
+@media screen and ( max-width:768px )
+  .article
+    &-grid
+      &-item
+        &-1
+          .article
+            &-grid
+              &-info
+                display: none
+        &-2
+          display: none
+        &-3
+
+@media screen and ( max-width:576px )
+  .article
+    &-grid
+      &-item
+        &-1
+          .article
+            &-grid
+              &-block
+                &-right
+                  img
+                    display: none
+        &-3
+          display: none
+        &-default
+          width: 100%
+          flex-wrap: wrap

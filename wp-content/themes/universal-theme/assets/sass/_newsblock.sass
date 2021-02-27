@@ -1,0 +1,135 @@
+.bloglist
+  margin-bottom: 60px
+
+  &-wrapper
+    display: flex
+
+  &-content
+    background: #fff
+    border-radius: 10px
+    width: 74%
+    max-width: 850px
+    height: 100%
+  &-items
+    display: flex
+    justify-content: space-between
+    align-items: start
+    border-bottom: 1px solid #D9DADB
+    padding: 25px 25px
+    position: relative
+  &:last-child
+    border-bottom: none
+
+  &-permalink
+    list-style: none
+  &-left
+    width: 90%
+  &-thumb
+    width: 100%
+    max-width: 350px
+    max-height: 230px
+    object-fit: cover
+  &-right
+    margin-left: 20px
+
+  &-header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 15px
+
+  &-category
+    .category-link
+      font-weight: 900
+      font-size: 12px
+      line-height: 15px
+      text-transform: uppercase
+      &.novosti
+        color: #4592FF
+      &.goryachee
+        color: #FF4F52
+      &.mneniya
+        color: #3BBDC4
+      &.web-design
+        color: #FFA34D
+      &.css
+        color: #3DC47E
+      &.javascript
+        color: #6E99AE
+      &.html
+        color: #AC8EE3
+      &.stati
+        color: #e38ea0
+
+  ul
+    margin: 0
+    padding: 0
+    // font-weight: 900
+    font-size: 12px
+    line-height: 15px
+    letter-spacing: 0.5px
+    // text-transform: uppercase
+    color: #4592FF
+    &:target, &:visited, &:hover
+      color: #4592FF
+
+  &-title
+    font-family: Roboto Slab
+    font-style: normal
+    font-weight: 900
+    font-size: 20px
+    line-height: 25px
+    color: #262D33
+  &-text
+    font-size: 14px
+    line-height: 20px
+    color: #4B5157
+    margin-bottom: 0px
+  &-info
+    display: flex
+    align-items: center
+    font-size: 12px
+    line-height: 15px
+    color: #939699
+    padding: 10px 0px
+  &-date
+    margin-right: 10px
+  &-comments
+    margin-right: 5px
+  &-counter
+    margin-right: 10px
+
+  .search-title
+    font-family: Roboto Slab
+    font-style: normal
+    font-weight: bold
+    font-size: 40px
+    line-height: 50px
+    color: #262D33
+
+@media screen and ( max-width: 1200px )
+  .bloglist
+    &-left
+      width: 450px
+      height: 260px
+    &-items
+      flex-direction: column
+    &-header
+      margin-top: 15px
+
+@media screen and ( max-width:768px )
+  .bloglist
+    &-content
+      width: 100%
+    &-wrapper
+      flex-wrap: wrap
+    &-items
+      padding-bottom: 30px
+    &-left
+      width: 435px
+@media screen and ( max-width: 576px )
+  .bloglist
+    &-left
+      width: 300px
+    &-right
+      max-width: 350px

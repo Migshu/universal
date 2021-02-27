@@ -1,0 +1,167 @@
+.footer
+  padding: 60px 0 55px
+  background: #fff
+  &-form
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-bottom: 70px
+    &-wrapper
+      display: flex
+      align-items: center
+      flex-direction: column
+    &-title
+      font-family: Roboto Slab
+      font-weight: 900
+      font-size: 40px
+      line-height: 50px
+      margin-bottom: 25px
+    input
+      margin-right: 10px
+      padding: 10px 15px
+      background: #FFFFFF
+      border: 1px solid #D9DADB
+      border-radius: 5px
+      min-width: 330px
+    button
+      background: #4592FF
+      border-radius: 20px
+      padding: 10px 25px
+      color: #fff
+      font-weight: 700
+      font-size: 14px
+      line-height: 20px
+  &-menu
+    padding: 0px
+    margin: 0px
+    &-bar
+      display: flex
+      align-items: space-between
+      padding-bottom: 60px
+      .menu-nav
+        width: 100%
+        padding-right: 20px
+        flex-basis: fill
+        border-top: 3px solid#000
+        &:nth-child(1)
+          border-top: 3px solid#FF4F52
+        &:nth-child(2)
+          border-top: 3px solid#AC8EE3
+        &:nth-child(3)
+          border-top: 3px solid#4592FF
+        &:nth-child(4)
+          border-top: 3px solid#FFA34D
+        &:nth-child(5)
+          border-top: 3px solid#3DC47E
+        &:nth-child(6)
+          border-top: 3px solid#6E99AE
+          ul
+            margin: 0
+            padding: 0
+            list-style: none
+            li
+              a
+                color: #4B5157
+                margin: 0 0 15px
+                font-size: 14px
+                line-height: 20px
+                display: inline-block
+        .menu-title
+          font-family: "Lato-Black" serif
+          font-weight: 900
+          font-size: 14px
+          line-height: 20px
+          color: #262D33
+          padding: 30px 30px 30px 0
+        .menu-header-menu-container
+          .menu
+            margin: 0px
+            padding: 0px
+            list-style: none
+            a
+              display: inline-block
+              color: #4B5157
+              margin: 0 0 15px
+              font-size: 14px
+              line-height: 20px
+  &-info
+    padding: 30px 0px
+    border-top: 1px solid #D9DADB
+    border-bottom: 1px solid #D9DADB
+    display: flex
+    align-items: center
+    justify-content: space-between
+    position: relative
+  &-wrapper
+    display: flex
+    align-items: center
+    justify-content: space-between
+    img
+      width: 40px
+
+    .menu-horizontal-footer-menu-container
+
+    .footer-nav
+      display: flex
+      align-items: center
+      font-family: "Lato-Black", serif
+    ul
+      margin: 0
+      padding: 0
+      list-style: none
+      a
+        font-weight: 900
+        font-size: 14px
+        line-height: 20px
+        letter-spacing: 0.5px
+        text-transform: uppercase
+        color: #262D33
+  .widget_soсial
+    margin: 0
+    padding: 0
+    height: auto
+
+.footer-text-items
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+  .footer-text-item
+    max-width: 750px
+    .textwidget
+      font-size: 14px
+      line-height: 20px
+      color: #939699
+  .footer-copyright
+    font-size: 14px
+    line-height: 20px
+    color: #939699
+    margin-top: 35px
+
+@media screen and ( max-width: 1024px )
+  .footer
+    .footer-text-item
+      max-width: 450px
+
+@media screen and ( max-width: 768px )
+  .footer
+    &-menu
+      &-bar
+        flex-wrap: wrap
+        margin-left: 25px
+        margin-right: 25px
+  .menu-horizontal-footer-menu-container
+    .footer-nav
+      flex-direction: column
+  .footer-text-items
+    flex-direction: column
+
+@media screen and ( max-width: 576px )
+  .footer
+    &-info
+      flex-direction: column
+    &-wrapper
+      display: none
+
+    .footer-text-items
+      margin-left: 25px

@@ -1,0 +1,50 @@
+.pagination
+  background: #fff
+  border-radius: 10px
+  width: 74%
+  max-width: 850px
+  height: 100%
+  margin-top: 40px
+  .nav
+    &-links
+      background: #fff
+      border-radius: 10px
+      display: flex
+      justify-content: center
+      align-items: center
+      *
+        padding: 17px
+        text-align: center
+        font-weight: 900
+        font-size: 14px
+        line-height: 20px
+        min-width: 65px
+        color: #262D33
+        &:not(:last-child)
+          border-right: 1px solid #D9DADB
+      .next,
+      .prev
+        padding: 17px 70px
+        color: #262D33
+        flex-grow: 1
+        display: flex
+        justify-content: center
+        align-items: center
+
+      .prev
+        &::before
+          content: ''
+          width: 15px
+          height: 7px
+          background: url(../images/arrow.png) no-repeat center / 100%
+          margin-right: 15px
+      .next
+        &::after
+          content: ''
+          width: 15px
+          height: 7px
+          background: url(../images/arrow-right.png) no-repeat center / 100%
+          margin-left: 15px
+
+      .current
+        color: #4592FF

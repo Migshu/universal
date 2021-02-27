@@ -1,0 +1,71 @@
+.article
+    &-section
+        margin-bottom: 30px
+        z-index: 1
+    &-list
+        margin: 0
+        padding: 25px
+        list-style: none
+        display: flex
+        align-items: center
+        background: #30363D
+        border-radius: 10px
+
+    &-item
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 25%
+        max-width: 250px
+        padding: 0 20px
+        position: relative
+        &:not(:last-child)::after
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            right: 0px
+            content: " "
+            width: 100%
+            width: 1px
+            height: 70px
+            background: #4B5157
+    &-title
+        padding-right: 10px
+        max-width: 160px
+        line-height: 20px
+        color: #fff
+        font-size: 14px
+        font-weight: 900
+        line-height: 20px
+    &-image
+        width: 80px
+
+@media screen and ( max-width: 1024px )
+    .article
+        &-list
+            flex-wrap: wrap
+        &-item
+            width: 50%
+            max-width: 352px
+            text-align: left
+            padding: 20px 20px
+            &::after
+                position: absolute
+                top: 50%
+                transform: translateY(-50%)
+                right: 0px
+                content: " "
+                width: 100%
+                width: 1px
+                height: 70px
+                background: #4B5157
+        &-title
+            max-width: 230px
+        &-permalink
+            width: 60%
+@media screen and ( max-width: 576px )
+    .article
+        &-list
+        &-item
+            width: 100%
+            max-width: 390px

@@ -1,0 +1,39 @@
+.investigation
+  margin-bottom: 60px
+  &-content
+    margin: 0 auto
+    padding: 50px 0 55px
+    max-width: 946px
+    text-align: center
+    color: #fff
+  &-title
+    font-family: 'Roboto Slab', serif
+    font-size: 40px
+    line-height: 50px
+    font-weight: 700
+  &-button
+    display: inline-block
+    line-height: 20px
+    font-weight: 700
+    color: #fff
+    padding: 10px 45px 10px 20px
+    background-color: #4592FF
+    text-decoration: none
+    border-radius: 20px
+    background-image: url('../images/arrow.svg')
+    background-repeat: no-repeat
+    background-position: center  right 20px
+    &:hover, &:visited, &:focus
+      color: #fff
+
+@media screen and ( max-width:1024px )
+  .investigation
+    &-content
+      max-width: 550px
+    &-title
+      font-size: 22px
+      line-height: 36px
+@media screen and ( max-width:576px )
+  .investigation
+    &-content
+      max-width: 350px
